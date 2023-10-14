@@ -1,0 +1,67 @@
+
+        .login
+        {
+        border-radius: 10%;
+        height : 400px;
+        width : 400px;
+        top:50%;
+        left:50%;
+        position:absolute;
+        background-color:antiquewhite;
+        box-shadow: 4px 4px 4px blue(0,0,0,0.4);
+        transform: translate(-50%,-50%);
+
+        }
+        body
+        {
+            background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Ffuturistic-background&psig=AOvVaw1A1lwcnQoRsU9If7sxZuK5&ust=1697354746315000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCMDF1LCB9YEDFQAAAAAdAAAAABAI);
+        }
+        .image
+        {
+            border-radius: 50%;
+            height: 40px; 
+            width: 40px;
+            border:2px solid rgb(20, 13, 14);
+            display: inline-block;
+
+        }
+        .imagediv
+        {
+            text-align: center;
+            padding-top: 12px;
+        }
+        .inputforms
+        {
+            text-align: center;
+
+        }
+        form
+        {
+            display: inline-block;
+            padding-top:20px;
+        }
+        .ip
+        { 
+            border-radius: 10%;
+            border:none;
+            height:5px;
+            text-align:center;
+            padding:15px;
+            font-size:medium;
+            color: blueviolet;
+        }
+        .logbtn
+        {
+            padding: 15px;
+            background-color: pink;
+            border: none;
+            font-size: large;
+            
+            cursor: pointer;
+
+        }
+        .logbtn:hover
+        {
+            background-color: rgb(198, 61, 84);
+            color: antiquewhite;
+        }
